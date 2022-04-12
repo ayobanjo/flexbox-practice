@@ -1,0 +1,32 @@
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:pink ;
+    padding: 12px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 22px;
+    padding: 6px;
+}
+
+.logo{
+    background-color: #fff;
+    color: orangered;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 4px 32px;
+}
+

@@ -1,0 +1,42 @@
+.nav{
+    font-family: Montserrat , sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: purple;
+    font-style: italic;
+
+}
+
+.item1, .item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+.not1,.not2{
+    background-color: blueviolet;
+}
+.not1{
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 170px;
+}
+.not2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

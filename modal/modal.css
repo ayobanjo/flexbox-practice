@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+body{
+    font-family:  Roboto, sans-serif;
+    background-color: #bdbcba;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 18px;
+    gap: 30px;
+
+}
+
+#exclaim{
+    width: 39px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #d5d3d0;
+    color: royalblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#xmark{
+    background-color: #d5d3d0;
+    width: 30px;
+    height: 31px;
+    color: #636361;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    border-radius: 50%;
+}
+h2{
+    margin: 0px;
+    font-size: 19px;
+}
+button{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+#btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+
+}
+#blue-btn{
+    background-color:royalblue ;
+    color: #fff;
+    font-weight: bolder;
+}
+#white-btn{
+    background-color: #fff;
+    color: royalblue;
+    font-weight: bolder;
+    border: 1px solid #ddd ;
+}
+.excont{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+
