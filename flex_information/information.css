@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.flex_information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+.info{
+    max-width: 200px;
+}
