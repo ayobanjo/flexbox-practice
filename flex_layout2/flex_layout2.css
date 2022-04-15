@@ -61,20 +61,20 @@ a {
 }
 
 .content {
-    padding: 16px;
+    padding: 20px;
     display: flex;
 
     flex-wrap: wrap;
-    gap: 10px 10px;
+    gap: 20px 26px;
 
 }
 
 .message {
     width: 250px;
-    height: 300px;
+    /* height: 300px; */
     border: 1px solid #ddd;
     box-shadow: 10px 10px 5px #aaaaaa;
-    padding: 5px;
+    padding: 10px;
     overflow: auto;
 }
 
@@ -85,6 +85,7 @@ a {
     bottom: 0px;
     background-color: #bbb;
     gap: 10px;
+    padding: 10px;
     /* font-size: ; */
 }
 
