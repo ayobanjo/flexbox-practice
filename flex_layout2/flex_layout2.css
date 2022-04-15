@@ -28,8 +28,9 @@ header {
 
 aside {
     background-color: rgb(12, 111, 231);
-    width: 400px;
-    padding: 10px;
+    width: 250px;
+    padding: 22px;
+    flex-shrink: 0;
 
 }
 .links{
@@ -70,23 +71,22 @@ a {
 }
 
 .message {
-    width: 250px;
-    /* height: 300px; */
-    border: 1px solid #ddd;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    padding: 10px;
+    width: 300px;
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgb(0 0 0 / 6%);
+    padding: 16px;
     overflow: auto;
+    border-radius: 5px;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 0px;
-    background-color: #bbb;
+    background-color: #eee;
     gap: 10px;
     padding: 10px;
-    /* font-size: ; */
+
 }
 
 img {
